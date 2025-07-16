@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'nonce-JeE5Nf7RtP1ai1eqlD8P1GOBApsJpleO' chrome-extension: 'unsafe-eval' *.canary.lwc.dev *.vf.force.com blob: https://ssl.gstatic.com/accessibility/ https://*.arcgis.com; object-src 'self' https://dgxl4.file.force.com; style-src 'self' blob: chrome-extension: 'unsafe-inline' *.vf.force.com https://dgxl4.file.force.com; img-src 'self' data: blob: *.force.com slack-mil-dev.com slack-imgs-mil-dev.com *.slack.com *.amazonaws.com *.my-salesforce-cms.com *.slack-imgs.com slack-imgs-gov.com *.slack-edge.mil *.salesforce-experience.com slack-imgs.com slack-gov-dev.com *.sfdcstatic.com *.slack-edge-gov.com *.salesforce.com *.twimg.com *.my-salesforce.com slack-imgs-gov-dev.com *.slack-edge.com slack-imgs.mil *.cloudinary.com *.vf.force.com; media-src 'self' *.vf.force.com https://dgxl4.file.force.com https://dgxl4.my.salesforce.com/content/session; frame-src blob: mailto: *.force.com *.quip.com *.arkoselabs.com 'self' *.youtube-nocookie.com *.youtube.co.uk *.cybersource.com *.youtube.com.br *.youtube.es *.salesforce-experience.com *.salesforceliveagent.com *.adis.ws *.sfdcfc.net *.youtube.ca *.youtube.ie *.cloudinary.com *.vidyard.com *.vimeo.com *.youtube.jp bcove.video *.youtube.fr *.forceusercontent.com *.youtube.com *.brightcove.net *.wistia.net *.salesforce.com *.youtube.nl *.youtube.pl dgxl4.my.salesforce.com *.vf.force.com https://*.arcgis.com; font-src 'self' https: data: *.force.com *.salesforce.com blob: *.vf.force.com; connect-src 'self' https://api.bluetail.salesforce.com https://staging.bluetail.salesforce.com https://preprod.bluetail.salesforce.com  *.amazonaws.com *.salesforce.com api.salesforce.com *.api.salesforce.com wss://*.slack.com blob: *.vf.force.com https://*.arcgis.com https://*.sfdcfc.net/ wss://*.sfdcfc.net/ https://dgxl4.file.force.com; report-to sfdc-csp-ep">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="frame-ancestors https://*.salesforce.com https://*.force.com;">
+
+  <title>Post Install Page</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 2em;
+    }
+  </style>
 </head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+  <h1>Welcome to the Post-Install Page</h1>
+  <p>Your package was installed successfully.</p>
+  <p>You can now <a href="https://your-external-site.com" target="_blank" rel="noopener">continue setup</a> in a new tab.</p>
 </body>
 </html>
